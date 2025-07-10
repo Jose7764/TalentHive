@@ -1,0 +1,80 @@
+:root {
+    --color_padrao: #3778FA;
+    --font-logo: SpaceGrotesk;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: SpaceGrotesk;
+    src: url(/fonts/Space_Grotesk/SpaceGrotesk-VariableFont_wght.ttf)
+}
+
+body{
+    background: white;
+    font-family: var(--font-logo);
+}
+
+#header{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 2rem 1rem;
+    align-items: center;
+}
+
+.logo{
+    font-family: var(--font-logo);
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: var(--color_padrao);
+}
+
+.slogan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 3.5rem;
+}
+
+.textos{
+    width: 95%;
+}
+
+.slogan h1{
+    justify-self: center;
+    font-size: 46px;
+    font-weight: 600;
+    letter-spacing: -2px;
+    text-align: center;
+}
+
+.subText{
+    padding-top: 2rem;
+    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0px;
+}
+
+.slogan img{
+    padding: 2rem;
+    width: 100vw;
+    height: auto;
+}
+
+.sesaoVideo{
+    justify-self: center;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sesaoVideo img{
+    padding: 2rem;
+    width: 100vw;
+    height: auto;
+}
