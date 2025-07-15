@@ -16,7 +16,7 @@
 
 body{
     background: white;
-    font-family: var(--font-logo);
+    font-family:  SpaceGrotesk;
 }
 
 #header{
@@ -43,22 +43,27 @@ body{
 
 .textos{
     width: 95%;
+    font-family:  SpaceGrotesk;
 }
 
 .slogan h1{
     justify-self: center;
-    font-size: 46px;
+    font-size: 11vw;
     font-weight: 600;
     letter-spacing: -2px;
     text-align: center;
+    font-family:  SpaceGrotesk;
 }
 
 .subText{
     padding-top: 2rem;
     text-align: center;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 3.5vw;
     letter-spacing: 0px;
+    font-family:  SpaceGrotesk;
+    width: 93%;
+    justify-self: center;
 }
 
 .slogan img{
@@ -78,7 +83,8 @@ body{
     width: 83%;
     justify-self: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 6.8vw;
+    font-family:  SpaceGrotesk;
 }
 
 .topico2 {
@@ -86,6 +92,15 @@ body{
     text-align: center;
     justify-self: center;
     font-size: 30px;
+}
+
+.topico2 h3{
+  width: 83%;
+  justify-self: center;
+  text-align: center;
+  font-size: 30px;
+  font-family:  SpaceGrotesk;
+  padding-bottom: 1rem;
 }
 
 .sesaoVideo img{
@@ -103,6 +118,7 @@ body{
     padding: 2rem 0 8rem 0;
     justify-content: flex-start;
     align-items: center;
+    font-family:  SpaceGrotesk;
 }
 
 .sesaoFoto img {
@@ -127,8 +143,9 @@ body{
     justify-content: flex-start;
     align-items: center;
     flex-direction: column;
-    width: 80%;
+    width: 88%;
     gap: 0.6rem;
+    padding-bottom: 4rem;
 }
 
 .selecao{
@@ -172,8 +189,9 @@ body {
     color: white;
     padding: 40px 20px;
     font-size: 14px;
-    border-radius: 1rem;
+    border-radius: 1rem 0 0 0;
     padding-top: 3rem;
+    font-family:  SpaceGrotesk;
   }
   
   .footer-top {
@@ -182,15 +200,22 @@ body {
   }
   
   .footer-top h2 {
-    font-size: 28px;
-    font-weight: bold;
-    line-height: 1.4;
+    font-size: 11vw;
+    font-weight: 600;
+    font-family:  SpaceGrotesk;
   }
   
   .footer-top p {
+    font-size: 3.5vw;
     margin-top: 10px;
-    max-width: 400px;
+    max-width: 75%;
     color: #e0e0ff;
+    font-family:  SpaceGrotesk;
+  }
+
+  .footer-column-container{
+    display: flex;
+    justify-content: space-between;
   }
   
   .learn-more {
@@ -201,7 +226,7 @@ body {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    font-weight: bold;
+    font-weight: 600;
   }
   
   .divider {
@@ -211,13 +236,25 @@ body {
   
   .footer-bottom {
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    justify-content: space-between;
+    margin-top: 4vh;
+    margin-bottom: 4vh;
   }
   
+  .footer-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
   .footer-column h3 {
     font-size: 16px;
     font-weight: bold;
+    font-family:  SpaceGrotesk;
+  }
+
+  .footer-column p{
+    width: 66%;
   }
   
   .footer-column ul,
@@ -231,7 +268,13 @@ body {
     margin-bottom: 8px;
   }
   
-  .footer-column a,
+  .footer-column a{
+    width: 50%;
+    color: white;
+    text-decoration: none;
+    
+  }
+
   .footer-links a,
   .footer-copy a,
   .footer-bottom-links a {
